@@ -1,0 +1,16 @@
+# Mac Files
+.DS_Store
+_DS_Store
+
+# NPM
+node_modules/
+package-lock.json
+
+# Build Folder
+_site/
+
+# Local Netlify folder
+.netlify
+
+# Local VScode Settings
+.vscode
