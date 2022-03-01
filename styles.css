@@ -62,8 +62,32 @@ a {
 
 ul {
     margin: .5em 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 ul li {
-    margin-bottom: .75em;
+    margin-bottom: 1em;
+}
+
+ul li img {
+    position: relative;
+        top: .2em
+}
+
+ul li span {
+    margin-right: .25em;
+    position: relative;
+        top: -.05em;
+}
+
+ul li ul {
+    font-size: .85em;
+    list-style:disc;
+    margin-left: 2em;
+}
+
+ul li ul li {
+    margin-bottom: .25em;
 }
