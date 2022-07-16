@@ -1,3 +1,12 @@
+@import url('./assets/fonts/comic-neue.css');
+
+
+:root{
+    --ff-sans-serif: 'Comic Neue','Comic Sans MS','Comic Sans',cursive;
+    --ff-serif: 'Comic Neue Angular','Comic Sans MS','Comic Sans',cursive;
+}
+
+
 *,
 *::before,
 *::after {
@@ -26,10 +35,14 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  font-family: 'Comic Sans MS','Comic Sans',cursive;
-  font-weight: 400;
-  line-height: 1.75;
-  margin: 0 auto;
+    font-family: var(--ff-sans-serif);
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--ff-serif);
 }
 
 p {
@@ -72,14 +85,15 @@ ul li {
 }
 
 ul li img {
+    margin-right: 1rem;
     position: relative;
-        top: .2em
+    top: .2em
 }
 
 ul li span {
-    margin-right: .25em;
+    margin-right: 1rem;
     position: relative;
-        top: -.05em;
+    top: -.05em;
 }
 
 ul li ul {
